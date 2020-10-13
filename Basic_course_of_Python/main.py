@@ -2,7 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-from currency_converter import obtencion_datos
+import currency_converter as converter
 
 
 def print_hi(name):
@@ -15,6 +15,5 @@ if __name__ == '__main__':
     print_hi('my friend')
 
     # Currrency converter funcion
-    # lsobtencion_datos()
-
+    converter.obtencion_datos()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
