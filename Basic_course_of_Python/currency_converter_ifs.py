@@ -1,24 +1,18 @@
 def exchanges(moneda,cantidad):
-    result = 0
-    # Moneda chilena
-    if moneda == 1:
+    if moneda == 1:  # Moneda chilena
         result = cantidad * 0.0013
         print(f'Los {cantidad} pesos chilenos equivalen a {result} dolares')
-    # Moneda colombiana
-    elif moneda == 2:
+    elif moneda == 2:  # Moneda colombiana
         result = cantidad * 0.00027
         print(f'Los {cantidad} pesos colombianos equivalen a {result} dolares')
-    # Moneda Argentina
-    elif moneda == 3:
+    elif moneda == 3:  # Moneda Argentina
         result = cantidad * 0.014
         print(f'Los {cantidad} pesos argentinos equivalen a {result} dolares')
-    # Moneda mexicana
-    elif moneda == 4:
+    elif moneda == 4:  # Moneda mexicana
         result = cantidad * 0.044
         print(f'Los {cantidad} pesos mexicanos equivalen a {result} dolares')
-    # Otro
-    else:
-        print('Ingresa solo un numero de la lista')
+    else:  # Otro
+        print('La opcion ingresada no esta disponible')
 
 
 if __name__ == '__main__':
@@ -32,7 +26,7 @@ if __name__ == '__main__':
         Selecciona: '''))
         print('********************************')
         cantidad = int(input('Ingresa la cantidad que quieres convertir: '))
-        exchanges(moneda,cantidad)
+        exchanges(moneda, cantidad)
     except:
         print('* * * * * * E R R O R * * * * * *')
         print('Por favor, Ingresa solo valores numericos')

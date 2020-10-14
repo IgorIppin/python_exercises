@@ -12,8 +12,5 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('my friend')
-
-    # Currrency converter funcion
-    converter.obtencion_datos()
+    print_hi('my friend, run the file you want to see its functionality.')
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

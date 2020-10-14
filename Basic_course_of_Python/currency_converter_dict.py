@@ -12,10 +12,14 @@ Elige tu moneda: ''')
     except ValueError:
         print('[[El valor de cantidad de pesos debe ser un número.]]')
         obtencion_datos()
-
     if moneda in pesos:
         valor = pesos[moneda]*cantidad
         print('Son '+str(valor)+' dolares')
     else:
         print('La moneda seleccionada no esta disponible. Vuelve a intentarlo.')
         obtencion_datos()
+
+
+if __name__ == '__main__':
+    # Currrency converter funcion
+    obtencion_datos()
