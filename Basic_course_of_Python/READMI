@@ -1,9 +1,9 @@
 Curso realizado en platzi sobre los fundamentos básicos de python
 
 Ejercicio 1:
-	Conversor de monedas de pesos a dolar.
-	Con las opciones de pesos mexicanos, argentinos, chilenos y colombianos.
-	Para este ejercicio hay dos modelos, uno basado en ifs y otro en un diccionario.
+    Conversor de monedas de pesos a dolar.
+    Con las opciones de pesos mexicanos, argentinos, chilenos y colombianos.
+    Para este ejercicio hay dos modelos, uno basado en ifs y otro en un diccionario.
 
 Ejercicio 2:
     Adivinar el numero que genero la maquina de 0 a 100.
