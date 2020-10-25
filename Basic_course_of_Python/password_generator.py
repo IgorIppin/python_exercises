@@ -17,6 +17,7 @@ def generator():
     password = "".join(password)
     return password
 
+
 def run():
     password = generator()
     print('Tu nueva contraseña es: ' + password)

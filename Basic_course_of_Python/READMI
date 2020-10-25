@@ -3,3 +3,18 @@ Curso realizado en platzi sobre los fundamentos básicos de python
 Ejercicio 1:
 	Conversor de monedas de pesos a dolar.
 	Con las opciones de pesos mexicanos, argentinos, chilenos y colombianos.
+	Para este ejercicio hay dos modelos, uno basado en ifs y otro en un diccionario.
+
+Ejercicio 2:
+    Adivinar el numero que genero la maquina de 0 a 100.
+    Se pregunta al usuario el numero que se genero y se repite la pregunta hasta que se acierte.
+
+Ejercicio 3:
+    Reconocer si un texto es un palindromo.
+    El usuario mete un texto obtiene una respuesta que le dice si es palindromo o no.
+    Un palindromo es aquel texto que se le de derecha a izquierda y al reves igual,
+    quitando los espacios.
+
+Ejercicio 4:
+    Revisar si el numero es primo o no.
+    El usuario mete un numero y la maquina responde si el numero es primo o no.

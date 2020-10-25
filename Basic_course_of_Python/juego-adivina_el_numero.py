@@ -4,13 +4,13 @@
 from random import randint
 
 def run():
-    numero_maquina = randint(0, 100)
+    machine_number = randint(0, 100)
     for i in range(100):
-        apuesta = int(input('Ingresa tu número: '))
-        if apuesta < numero_maquina:
+        bet = int(input('Ingresa tu número: '))
+        if bet < machine_number:
             print('Ups!! El número ingresado es muy pequeño')
             continue
-        elif apuesta > numero_maquina:
+        elif bet > machine_number:
             print('Ups!! El número ingresado es muy grande')
             continue
         else:

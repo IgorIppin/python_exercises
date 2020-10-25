@@ -1,1 +1,0 @@
-from Basic_course_of_Python.currency_converter import obtencion_datos

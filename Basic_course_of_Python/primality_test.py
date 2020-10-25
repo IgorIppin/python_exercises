@@ -1,27 +1,27 @@
 # Prueba de primalidad que comprueba que el número ingresado sea un número primo
 
-def es_primo(numero):
-    contador = 0
-    if numero == 1:
+def is_prime_number(number):
+    counter = 0
+    if number == 1:
         return False
 
-    for i in range(1, numero + 1):
-        if i == 1 or i == numero:
+    for i in range(1, number + 1):
+        if i == 1 or i == number:
             continue
-        if numero % i == 0:
-            contador += 1
-    if contador == 0:
+        if number % i == 0:
+            counter += 1
+    if counter == 0:
         return True
     else:
         return False
 
 
 def run():
-    numero = int(input('Escribe un número: '))
-    if es_primo(numero):
-        print('El '+str(numero)+' es un número primo')
+    number = int(input('Escribe un número: '))
+    if is_prime_number(number):
+        print('El '+str(number)+' es un número primo')
     else:
-        print('El '+str(numero)+' no es un número primo')
+        print('El '+str(number)+' no es un número primo')
 
 
 if __name__ == '__main__':
