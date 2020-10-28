@@ -2,7 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-import Basic_course_of_Python.currency_converter_dict as converter
+import exercises.currency_converter_dict as converter
 
 
 def print_hi(name):
